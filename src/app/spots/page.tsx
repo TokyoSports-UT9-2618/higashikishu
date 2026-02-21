@@ -1,15 +1,33 @@
 import type { Metadata } from "next";
+import { getContentfulEntries } from "@/lib/contentful";
 
 export const metadata: Metadata = {
   title: "観光スポット一覧",
   description: "東紀州エリアの観光スポット一覧です。",
 };
 
-export default function SpotsListPage() {
+export default async function SpotsListPage() {
+  const entries = await getContentfulEntries("spots");
+
   return (
     <main>
       <h1>観光スポット一覧</h1>
-      <p>（観光スポットの一覧が表示されます）</p>
+      {entries.length === 0 ? (
+        <p>（現在、公開準備中です）</p>
+      ) : (
+        <ul>
+          {entries.map((entry) => {
+            const fallbackId = entry.sys?.id ?? "item";
+            const rawTitle = entry.fields?.title;
+            const title =
+              typeof rawTitle === "string" && rawTitle.trim().length > 0
+                ? rawTitle
+                : fallbackId;
+
+            return <li key={fallbackId}>{title}</li>;
+          })}
+        </ul>
+      )}
     </main>
   );
 }
