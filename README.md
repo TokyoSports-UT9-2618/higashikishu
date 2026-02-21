@@ -102,6 +102,16 @@ CONTENTFUL_ACCESS_TOKEN=<CDA token>
 
 手順は `/Users/takahironochiseabirdinc./higashikishu/docs/CONTENTFUL_ENVIRONMENT_SETUP.md` を参照してください。
 
+### 東紀州用 Content Type ID（既存コンテンツと分離）
+
+このプロジェクトは既存 `news` などと混在しないよう、以下の Content Type ID を参照します。
+
+- `hk_route`
+- `hk_hotel`
+- `hk_cs`
+- `hk_rental`
+- `hk_spots`
+
 ## Cloudflare Pages 静的公開メモ
 
 - Build command: `npm run build`

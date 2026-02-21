@@ -1,8 +1,7 @@
 export const CONTENT_TYPES = {
-  route: "route",
-  hotel: "hotel",
-  cs: "cs",
-  rental: "rental",
-  spots: "spots",
+  route: "hk_route",
+  hotel: "hk_hotel",
+  cs: "hk_cs",
+  rental: "hk_rental",
+  spots: "hk_spots",
 } as const;
-
