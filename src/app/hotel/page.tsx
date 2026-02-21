@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
-import { getContentfulEntries } from "@/lib/contentful";
+import { CONTENT_TYPES } from "@/lib/content-types";
+import { getContentfulEntries, getEntryTitle } from "@/lib/contentful";
 
 export const metadata: Metadata = {
   title: "やさしい宿一覧",
@@ -7,7 +8,7 @@ export const metadata: Metadata = {
 };
 
 export default async function HotelListPage() {
-  const entries = await getContentfulEntries("hotel");
+  const entries = await getContentfulEntries(CONTENT_TYPES.hotel);
 
   return (
     <main>
@@ -17,14 +18,8 @@ export default async function HotelListPage() {
       ) : (
         <ul>
           {entries.map((entry) => {
-            const fallbackId = entry.sys?.id ?? "item";
-            const rawTitle = entry.fields?.title;
-            const title =
-              typeof rawTitle === "string" && rawTitle.trim().length > 0
-                ? rawTitle
-                : fallbackId;
-
-            return <li key={fallbackId}>{title}</li>;
+            const id = entry.sys?.id ?? "item";
+            return <li key={id}>{getEntryTitle(entry)}</li>;
           })}
         </ul>
       )}

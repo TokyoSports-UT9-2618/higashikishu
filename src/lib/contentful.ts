@@ -1,7 +1,7 @@
 import "server-only";
 import { env } from "./config";
 
-type ContentfulItem = {
+export type ContentfulItem = {
   sys?: {
     id?: string;
   };
@@ -42,4 +42,12 @@ export const getContentfulEntries = async (
 
   const data = (await response.json()) as ContentfulEntriesResponse;
   return Array.isArray(data.items) ? data.items : [];
+};
+
+export const getEntryTitle = (entry: ContentfulItem): string => {
+  const fallbackId = entry.sys?.id ?? "item";
+  const rawTitle = entry.fields?.title;
+  return typeof rawTitle === "string" && rawTitle.trim().length > 0
+    ? rawTitle
+    : fallbackId;
 };
