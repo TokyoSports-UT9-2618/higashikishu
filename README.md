@@ -91,3 +91,20 @@ Cloudflare Pages の Project Settings > Environment variables に、以下を環
 - `NEXT_PUBLIC_CONTACT_WORKER_ENDPOINT`
 - `NEXT_PUBLIC_TURNSTILE_SITE_KEY`
 - `NEXT_PUBLIC_GA4_MEASUREMENT_ID`
+
+## Cloudflare Pages 静的公開メモ
+
+- Build command: `npm run build`
+- Build output directory: `out`
+
+### 一時対応（現状）
+
+- `output: "export"` で静的出力するため、`src/app/*/[slug]/page.tsx` は一旦ビルド対象から外しています。
+- 現在は一覧ページ中心で公開する前提です。
+
+### Contentful 接続後に詳細ページを復活する手順
+
+1. `src/app/hotel/[slug]/page.tsx` など詳細ページを復活
+2. 各 `[slug]` ページに `generateStaticParams()` を実装
+3. Contentful から slug 一覧を取得し、全パスを静的生成
+4. `npm run build` で export 成功を確認して再デプロイ
