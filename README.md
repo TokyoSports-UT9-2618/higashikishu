@@ -85,6 +85,23 @@ Cloudflare Pages の Project Settings > Environment variables には、以下3�
 - `CONTENTFUL_ENVIRONMENT`
 - `CONTENTFUL_ACCESS_TOKEN`
 
+## 既存Spaceでの運用分離（推奨）
+
+新しい Space を追加せず、既存 Space 内の Environment を分けて運用できます。
+
+- 既存運用: 既存HP側 Environment（例: `master`）
+- 東紀州運用: 東紀州専用 Environment（例: `higashikishu`）
+
+このプロジェクトは `CONTENTFUL_ENVIRONMENT` で対象 Environment を切り替えます。
+
+```env
+CONTENTFUL_SPACE_ID=<既存SpaceのID>
+CONTENTFUL_ENVIRONMENT=higashikishu
+CONTENTFUL_ACCESS_TOKEN=<CDA token>
+```
+
+手順は `/Users/takahironochiseabirdinc./higashikishu/docs/CONTENTFUL_ENVIRONMENT_SETUP.md` を参照してください。
+
 ## Cloudflare Pages 静的公開メモ
 
 - Build command: `npm run build`
