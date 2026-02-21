@@ -4,36 +4,38 @@
 
 ## 必須環境変数
 
-以下はすべて必須です。未設定または不正値の場合、アプリは起動時にエラーで停止します。
+未設定または不正値の場合、アプリは起動時にエラーで停止します。
 
-### サーバー専用（クライアント公開禁止）
+### 必須（Cloudflare Pages でもこの3つのみ）
 
 - `CONTENTFUL_SPACE_ID`
-- `CONTENTFUL_ENV`
-- `CONTENTFUL_CDA_TOKEN`
-- `CONTENTFUL_CPA_TOKEN`
-- `EDIT_MODE_SECRET_KEY`
-- `CONTACT_TO_EMAIL`（メールアドレス形式）
+- `CONTENTFUL_ENVIRONMENT`
+- `CONTENTFUL_ACCESS_TOKEN`
 
-### 公開変数（クライアント利用可）
+### 任意（未設定でもビルド可能）
 
 - `NEXT_PUBLIC_CONTACT_WORKER_ENDPOINT`
 - `NEXT_PUBLIC_TURNSTILE_SITE_KEY`
 - `NEXT_PUBLIC_GA4_MEASUREMENT_ID`
+- `CONTENTFUL_CPA_TOKEN`
+- `EDIT_MODE_SECRET_KEY`
+- `CONTACT_TO_EMAIL`（設定する場合はメールアドレス形式）
+
+互換性のため、`CONTENTFUL_ENV` と `CONTENTFUL_CDA_TOKEN` も一時的に受け付けますが、今後は上記の新しい名前を使用してください。
 
 例: `.env.local`
 
 ```env
 CONTENTFUL_SPACE_ID=your_space_id
-CONTENTFUL_ENV=master
-CONTENTFUL_CDA_TOKEN=your_cda_token
-CONTENTFUL_CPA_TOKEN=your_cpa_token
-EDIT_MODE_SECRET_KEY=your_edit_secret
-CONTACT_TO_EMAIL=admin@example.com
+CONTENTFUL_ENVIRONMENT=master
+CONTENTFUL_ACCESS_TOKEN=your_access_token
 
 NEXT_PUBLIC_CONTACT_WORKER_ENDPOINT=https://example.workers.dev/contact
 NEXT_PUBLIC_TURNSTILE_SITE_KEY=your_turnstile_site_key
 NEXT_PUBLIC_GA4_MEASUREMENT_ID=G-XXXXXXXXXX
+CONTENTFUL_CPA_TOKEN=optional_preview_token
+EDIT_MODE_SECRET_KEY=optional_edit_secret
+CONTACT_TO_EMAIL=optional@example.com
 ```
 
 ## ローカル開発手順
@@ -75,22 +77,13 @@ npm run lint
 
 ## Cloudflare Pages に設定する環境変数
 
-Cloudflare Pages の Project Settings > Environment variables に、以下を環境ごと（Preview / Production）に設定してください。
+Cloudflare Pages の Project Settings > Environment variables には、以下3つのみを環境ごと（Preview / Production）に設定してください。
 
 ### サーバー専用
 
 - `CONTENTFUL_SPACE_ID`
-- `CONTENTFUL_ENV`
-- `CONTENTFUL_CDA_TOKEN`
-- `CONTENTFUL_CPA_TOKEN`
-- `EDIT_MODE_SECRET_KEY`
-- `CONTACT_TO_EMAIL`
-
-### 公開変数
-
-- `NEXT_PUBLIC_CONTACT_WORKER_ENDPOINT`
-- `NEXT_PUBLIC_TURNSTILE_SITE_KEY`
-- `NEXT_PUBLIC_GA4_MEASUREMENT_ID`
+- `CONTENTFUL_ENVIRONMENT`
+- `CONTENTFUL_ACCESS_TOKEN`
 
 ## Cloudflare Pages 静的公開メモ
 
