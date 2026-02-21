@@ -1,24 +1,20 @@
 import { describe, expect, it } from "vitest";
 import { parseEnv } from "./config-schema";
 
-const REQUIRED_ENV = {
+const CONTENTFUL_ENV = {
   CONTENTFUL_SPACE_ID: "space-id",
   CONTENTFUL_ENVIRONMENT: "master",
   CONTENTFUL_ACCESS_TOKEN: "access-token",
 } as const;
 
 describe("env config validation", () => {
-  it("throws a clear error when required env is missing", () => {
-    const broken = {
-      ...REQUIRED_ENV,
-      CONTENTFUL_SPACE_ID: "",
-    };
-
-    expect(() => parseEnv(broken)).toThrow(/CONTENTFUL_SPACE_ID/);
+  it("accepts empty input for static build safety", () => {
+    const parsed = parseEnv({});
+    expect(parsed.CONTENTFUL_SPACE_ID).toBeUndefined();
   });
 
-  it("returns typed env values when all required env exist", () => {
-    const parsed = parseEnv({ ...REQUIRED_ENV });
+  it("returns typed env values when contentful env exist", () => {
+    const parsed = parseEnv({ ...CONTENTFUL_ENV });
 
     expect(parsed.CONTENTFUL_SPACE_ID).toBe("space-id");
     expect(parsed.CONTENTFUL_ENVIRONMENT).toBe("master");
@@ -33,5 +29,13 @@ describe("env config validation", () => {
 
     expect(parsed.CONTENTFUL_ENVIRONMENT).toBe("master");
     expect(parsed.CONTENTFUL_ACCESS_TOKEN).toBe("legacy-cda-token");
+  });
+
+  it("throws when optional email is invalid", () => {
+    expect(() =>
+      parseEnv({
+        CONTACT_TO_EMAIL: "not-an-email",
+      }),
+    ).toThrow(/CONTACT_TO_EMAIL/);
   });
 });

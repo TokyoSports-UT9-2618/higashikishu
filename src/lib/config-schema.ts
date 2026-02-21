@@ -11,9 +11,9 @@ const optionalString = z.preprocess(emptyToUndefined, z.string().min(1).optional
 const optionalEmail = z.preprocess(emptyToUndefined, z.string().email().optional());
 
 const envSchema = z.object({
-  CONTENTFUL_SPACE_ID: z.string().min(1, "CONTENTFUL_SPACE_ID is required"),
-  CONTENTFUL_ENVIRONMENT: z.string().min(1, "CONTENTFUL_ENVIRONMENT is required"),
-  CONTENTFUL_ACCESS_TOKEN: z.string().min(1, "CONTENTFUL_ACCESS_TOKEN is required"),
+  CONTENTFUL_SPACE_ID: optionalString,
+  CONTENTFUL_ENVIRONMENT: optionalString,
+  CONTENTFUL_ACCESS_TOKEN: optionalString,
   CONTENTFUL_CPA_TOKEN: optionalString,
   EDIT_MODE_SECRET_KEY: optionalString,
   CONTACT_TO_EMAIL: optionalEmail,

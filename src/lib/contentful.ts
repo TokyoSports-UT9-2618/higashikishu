@@ -15,6 +15,14 @@ type ContentfulEntriesResponse = {
 export const getContentfulEntries = async (
   contentType: string,
 ): Promise<ContentfulItem[]> => {
+  if (
+    !env.CONTENTFUL_SPACE_ID ||
+    !env.CONTENTFUL_ENVIRONMENT ||
+    !env.CONTENTFUL_ACCESS_TOKEN
+  ) {
+    return [];
+  }
+
   const endpoint = new URL(
     `https://cdn.contentful.com/spaces/${env.CONTENTFUL_SPACE_ID}/environments/${env.CONTENTFUL_ENVIRONMENT}/entries`,
   );
@@ -35,4 +43,3 @@ export const getContentfulEntries = async (
   const data = (await response.json()) as ContentfulEntriesResponse;
   return Array.isArray(data.items) ? data.items : [];
 };
-
