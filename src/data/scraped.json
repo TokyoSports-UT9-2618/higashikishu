@@ -1,0 +1,551 @@
+{
+  "route": [
+    {
+      "type": "route",
+      "title": "太平洋岸自転車道走破ルート",
+      "url": "https://higashikishucycling.com/r1/",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/1-2-e1737214573534-r070v56w9tccxxsnghsce9yo01m7zvru4j1j9d5w1s.jpg",
+      "description": "難易度：★★☆\n走行距離：81.4km　獲得標高：1,714m"
+    },
+    {
+      "type": "route",
+      "title": "グランフォンド熊野海岸ルート",
+      "url": "https://higashikishucycling.com/r2/",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/2-3-e1737214731887-r070z9pe9mznwbsxd9zec8hhuxa7s25fcy49331oqo.jpg",
+      "description": "難易度：★☆☆\n走行距離：49.6km　獲得標高：1,128m"
+    },
+    {
+      "type": "route",
+      "title": "ツール・ド・熊野 幻の2024ルート",
+      "url": "https://higashikishucycling.com/r3/",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/3-3-e1737214797261-r0710zqqspcl6latb0srwstx2csfw2zplh6archpc0.jpg",
+      "description": "難易度：★★★\n走行距離：130.2km　獲得標高：3,162m"
+    },
+    {
+      "type": "route",
+      "title": "きなヴェロルート",
+      "url": "https://higashikishucycling.com/r4/",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/4-3-e1737214986148-r0715xe8oe3s4w4rhnl9i201c6gtavkz9wh2gn6ao0.jpg",
+      "description": "難易度：★★☆\n走行距離：96.0km　獲得標高：1,606m"
+    },
+    {
+      "type": "route",
+      "title": "紀北町周遊＋須賀利ルート",
+      "url": "https://higashikishucycling.com/r5/",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/5-3-e1737215048242-r0717jo8g4bk4ps41cs4snam62hkk40c5wx67srvy8.jpg",
+      "description": "難易度：★★☆\n走行距離：68.0km　獲得標高：1,411m"
+    },
+    {
+      "type": "route",
+      "title": "尾鷲・熊野周遊ルート",
+      "url": "https://higashikishucycling.com/r6/",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/6-3-e1737215130441-r0719or00j92kqo5ja3jh3uevnxo3aibsiezkhlls0.jpg",
+      "description": "難易度：★★★\n走行距離：77.5km　獲得標高：2,064m"
+    },
+    {
+      "type": "route",
+      "title": "熊野一周ルート",
+      "url": "https://higashikishucycling.com/r7/",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/7-3-e1737215096865-r0718sshk61blzykpwa84bwqokb6tkzgc48h92wznk.jpg",
+      "description": "難易度：★★★\n走行距離：80.2km　獲得標高：2,259m"
+    },
+    {
+      "type": "route",
+      "title": "紀南ヒルクライム＆熊野川ルート",
+      "url": "https://higashikishucycling.com/r8/",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/8-3-e1737215164708-r071akpigwgtjhdqcnwutvs32rk5d0178wlhvwa7wg.jpg",
+      "description": "難易度：★★☆\n走行距離：67.7km　獲得標高：1,156m"
+    },
+    {
+      "type": "route",
+      "title": "熊野パワースポット巡りルート",
+      "url": "https://higashikishucycling.com/r9/",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/9-3-e1737215195437-r071bduicrkpje7emiiah6fdhpkizm8vowtjrh30jk.jpg",
+      "description": "難易度：★☆☆\n走行距離：26.6km　獲得標高：679m"
+    },
+    {
+      "type": "route",
+      "title": "熊野ヒルクライム＆ダウンヒルルート",
+      "url": "https://higashikishucycling.com/r10/",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/10-3-e1737215227747-r071c7xcfgpvuwzpqvicoyu4i1g9txkah1p34buf0g.jpg",
+      "description": "難易度：★☆☆\n走行距離：25.2km　獲得標高：765m"
+    },
+    {
+      "type": "route",
+      "title": "紀北町まちなか周遊ルート",
+      "url": "https://higashikishucycling.com/r101/",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/1-2-e1737214573534-r070v56w9tccxxsnghsce9yo01m7zvru4j1j9d5w1s.jpg",
+      "description": "難易度：★☆☆\n走行距離：11.6km　獲得標高：123m"
+    },
+    {
+      "type": "route",
+      "title": "尾鷲市まちなか周遊ルート",
+      "url": "https://higashikishucycling.com/r102/",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/2-3-e1737214731887-r070z9pe9mznwbsxd9zec8hhuxa7s25fcy49331oqo.jpg",
+      "description": "難易度：★☆☆\n走行距離：10.1km　獲得標高：117m"
+    },
+    {
+      "type": "route",
+      "title": "熊野市世界遺産巡りルート",
+      "url": "https://higashikishucycling.com/r103/",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/6-3-e1737215130441-r0719or00j92kqo5ja3jh3uevnxo3aibsiezkhlls0.jpg",
+      "description": "難易度：★☆☆\n走行距離：8.0km　獲得標高：193m"
+    },
+    {
+      "type": "route",
+      "title": "紀宝町浜街道ルート",
+      "url": "https://higashikishucycling.com/r104/",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/5-3-e1737215048242-r0717jo8g4bk4ps41cs4snam62hkk40c5wx67srvy8.jpg",
+      "description": "難易度：★☆☆\n走行距離：7.0km　獲得標高：110m"
+    }
+  ],
+  "spots": [],
+  "hotel": [
+    {
+      "type": "hotel",
+      "title": "自転車の屋内保管",
+      "url": "#",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/IMG_6102-scaled-qzmyqshggaaniiy5wfe1jd65xmbyea1xyj0mdq7r0g.jpeg",
+      "description": "部屋の中への持ち込みが理想だが、鍵のかかる倉庫などに保管できること。"
+    },
+    {
+      "type": "hotel",
+      "title": "空気入れの貸出",
+      "url": "#",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/—Pngtree—bicycle-tire-pump-and-vector_113041-r0cnv8lkedknumdpbghue3rgfwy5u0ehk8lvp9dmyo.png",
+      "description": "スポーツ自転車対応の空気入れであることが必須条件。理想的には仏式/米式/英式と3タイプのバルブ形式に対応したい。"
+    },
+    {
+      "type": "hotel",
+      "title": "ランドリーサービス",
+      "url": "#",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/—Pngtree—laundromat-with-washing-machines-and_15497909-r069t6r6rs2izkisohutt1uh924iab8e7w3fpt9bb4.png",
+      "description": "有料/無料にはこだわらないが、洗濯機が使用可能であること。乾燥機があると理想的。"
+    },
+    {
+      "type": "hotel",
+      "title": "手荷物の一時預かり",
+      "url": "#",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/手荷物預かり-r069zmxbnuwcn95k0s7oex9bz8c63ju3ft8d95p2m8.png",
+      "description": "チェックインの前後にかかわらず手荷物を預かるサービスがあること。"
+    },
+    {
+      "type": "hotel",
+      "title": "E-BIKEなどへの充電サービス",
+      "url": "#",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/—Pngtree—the-future-of-cycling-electric_17880892-r0690xptd1ea1hk3na8hv6hqi5dcxt2to282gf5abk.png",
+      "description": "電動アシスト付自転車やE-BIKEなどへの充電サービスが可能か。"
+    },
+    {
+      "type": "hotel",
+      "title": "宅配便の受取・発送サービス",
+      "url": "#",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/—Pngtree—parcel-delivery-and-post-service_8975550-r06aiyhw59cjap3774vlo1qfkd3sbkjgrfzodx1qps.png",
+      "description": "衣類などの受取やお土産ものの発送など以外にも、自転車そのものを配送するなど需要が多い。"
+    },
+    {
+      "type": "hotel",
+      "title": "自転車の洗浄・作業スペースの確保",
+      "url": "#",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/自転車修理-r06anw5e0y3q8zx5dro39awju6s5qd4qfvag37qc1s.png",
+      "description": "自転車についた旅の汚れを簡単に洗い流したり、自転車の修理・調整などがあると理想的。"
+    },
+    {
+      "type": "hotel",
+      "title": "スポーツバイク対応の修理工具の貸出",
+      "url": "#",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/工具貸出-r06aqtfbae3udbo8b16b0kc6dcd9ogqo6cctu7e8ow.png",
+      "description": "ヘキサレンチなどの基本工具に加え、専用工具を備え付けているか。"
+    },
+    {
+      "type": "hotel",
+      "title": "周辺のサイクリング情報の案内など",
+      "url": "#",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/—Pngtree—shared-parking-site-map_3360234-e1737178796145-r06ax072a4ksswon67gvxi4f5nv9cqb20yywks7xq8.png",
+      "description": "マップや観光パンフレットはもちろんだが、サイクリストから尋ねられた時に答えられるのが理想。"
+    },
+    {
+      "type": "hotel",
+      "title": "その他サイクリストに優しいサービス",
+      "url": "#",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/—Pngtree—vector-cups-and-ice-cubes_3027525-r06atapzbni30a2itlrv3fsysy54zpl66mbyfhpu9s.png",
+      "description": "例えば夏場に飲料水用に氷の無料提供をするなど、施設独自で準備するサービスがあると理想的。"
+    }
+  ],
+  "cs": [
+    {
+      "type": "cs",
+      "title": "道の駅 紀伊長島マンボウ",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/01-r081szatbpsele4u5bmu0p3jgv0tzz4qalvpydegzk.png",
+      "description": "紀北町　マンボウの巨大オブジェあり"
+    },
+    {
+      "type": "cs",
+      "title": "紀北町観光サービスセンター",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/CS2-r082fxiy737g2msp4qrweelpmjwgxx8sg7bisldf28.png",
+      "description": "道の駅紀伊長島マンボウ内"
+    },
+    {
+      "type": "cs",
+      "title": "ふれあい広場マンドロ",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/CS3-r082fxiy737g2msp4qrweelpmjwgxx8sg7bisldf28.png",
+      "description": "紀北町・紀伊長島駅隣"
+    },
+    {
+      "type": "cs",
+      "title": "卵卵ふわぁ〜む",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/CS-r082fxiy737g2msp4qrweelpmjwgxx8sg7bisldf28.png",
+      "description": "紀北町　パティスリー"
+    },
+    {
+      "type": "cs",
+      "title": "Kitchen Port 風楽",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/CS5-r082fwl40965r0u2a8d9twu91613q85242o1bbet8g.png",
+      "description": "紀北町　中華料理"
+    },
+    {
+      "type": "cs",
+      "title": "道瀬食堂",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/CS6-r082fwl40965r0u2a8d9twu91613q85242o1bbet8g.png",
+      "description": "紀北町　食堂・宿泊"
+    },
+    {
+      "type": "cs",
+      "title": "オリエンタル商会",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/CS7-r082fwl40965r0u2a8d9twu91613q85242o1bbet8g.png",
+      "description": "紀北町　北部エリアの貴重なサイクルショップ"
+    },
+    {
+      "type": "cs",
+      "title": "道の駅 海山",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/CS8-r082fwl40965r0u2a8d9twu91613q85242o1bbet8g.png",
+      "description": "紀北町　川遊びのベースキャンプ"
+    },
+    {
+      "type": "cs",
+      "title": "尾鷲観光物産協会",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/CS9-r082fwl40965r0u2a8d9twu91613q85242o1bbet8g.png",
+      "description": "尾鷲市　観光案内・レンタサイクル"
+    },
+    {
+      "type": "cs",
+      "title": "おわせお魚いちば おとと",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/CS10-r082fwl40965r0u2a8d9twu91613q85242o1bbet8g.png",
+      "description": "尾鷲市　魚介などの直売・食堂"
+    },
+    {
+      "type": "cs",
+      "title": "Cafe Scale",
+      "url": "#",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/CS11-r082fwl40965r0u2a8d9twu91613q85242o1bbet8g.png",
+      "description": "尾鷲市　ランチの美味しいカフェ"
+    },
+    {
+      "type": "cs",
+      "title": "おわせマルシェ",
+      "url": "#",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/CS12-r082fvn9tf4vfevffpyn9f2sfs5qij1bry0ju1g7eo.png",
+      "description": "尾鷲市　ノスタルジックな雑貨や食事"
+    },
+    {
+      "type": "cs",
+      "title": "三重県立熊野古道センター",
+      "url": "#",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/CS13-r082fvn9tf4vfevffpyn9f2sfs5qij1bry0ju1g7eo.png",
+      "description": "尾鷲市　熊野古道の情報など"
+    },
+    {
+      "type": "cs",
+      "title": "夢古道おわせ",
+      "url": "#",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/CS14-r082fvn9tf4vfevffpyn9f2sfs5qij1bry0ju1g7eo.png",
+      "description": "尾鷲市　レストラン・温浴施設"
+    },
+    {
+      "type": "cs",
+      "title": "みえ尾鷲海洋深層水アクアステーション",
+      "url": "#",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/CS15-r082fvn9tf4vfevffpyn9f2sfs5qij1bry0ju1g7eo.png",
+      "description": "尾鷲市　各種海洋深層水分水"
+    },
+    {
+      "type": "cs",
+      "title": "榎本酒店",
+      "url": "#",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/CS16-r082fvn9tf4vfevffpyn9f2sfs5qij1bry0ju1g7eo.png",
+      "description": "尾鷲市　国道311号沿いの貴重な商店"
+    },
+    {
+      "type": "cs",
+      "title": "道の駅 熊野きのくに",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/CS17-r082fvn9tf4vfevffpyn9f2sfs5qij1bry0ju1g7eo.png",
+      "description": "熊野市　土日のみオープン"
+    },
+    {
+      "type": "cs",
+      "title": "鬼ヶ城センター",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/CS18-r082fvn9tf4vfevffpyn9f2sfs5qij1bry0ju1g7eo.png",
+      "description": "熊野市　入り口前に赤鬼青鬼"
+    },
+    {
+      "type": "cs",
+      "title": "世界遺産熊野古道館",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/CS19-r082fvn9tf4vfevffpyn9f2sfs5qij1bry0ju1g7eo.png",
+      "description": "熊野市　情報・各種体験など"
+    },
+    {
+      "type": "cs",
+      "title": "道の駅 熊野・花の窟",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/CS20-r082fupfml3l3swsl7k0oxbbueadatxlftd2crhlkw.png",
+      "description": "熊野市　日本最古の神社横"
+    },
+    {
+      "type": "cs",
+      "title": "ちゃや",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/CS21-r082fupfml3l3swsl7k0oxbbueadatxlftd2crhlkw.png",
+      "description": "熊野市　古民家カフェ"
+    },
+    {
+      "type": "cs",
+      "title": "Sweets & Bakery Aria",
+      "url": "#",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/CS22-r082fupfml3l3swsl7k0oxbbueadatxlftd2crhlkw.png",
+      "description": "熊野市　ツール・ド・熊野コース上にあるパン屋さん"
+    },
+    {
+      "type": "cs",
+      "title": "Iru-Cafe",
+      "url": "#",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/CS23-r082fupfml3l3swsl7k0oxbbueadatxlftd2crhlkw.png",
+      "description": "熊野市　フクロウカフェ"
+    },
+    {
+      "type": "cs",
+      "title": "道の駅 熊野・板屋九郎兵衛の里",
+      "url": "#",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/CS24-r082fupfml3l3swsl7k0oxbbueadatxlftd2crhlkw.png",
+      "description": "熊野市　丸山千枚田の麓"
+    },
+    {
+      "type": "cs",
+      "title": "NISCO",
+      "url": "#",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/CS25-r082fupfml3l3swsl7k0oxbbueadatxlftd2crhlkw.png",
+      "description": "御浜町　ドーナツショップ"
+    },
+    {
+      "type": "cs",
+      "title": "七里御浜ツーリストインフォメーションセンター",
+      "url": "#",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/CS26-r082fupfml3l3swsl7k0oxbbueadatxlftd2crhlkw.png",
+      "description": "御浜町　観光の情報拠点"
+    },
+    {
+      "type": "cs",
+      "title": "道の駅 パーク七里御浜",
+      "url": "#",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/CS27-r082ftrlfr2as6y5qp5e4fjv90f034tv3opkvhizr4.png",
+      "description": "御浜町　大型ショッピングセンター併設"
+    },
+    {
+      "type": "cs",
+      "title": "中辻自転車店",
+      "url": "#",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/CS28-r082ftrlfr2as6y5qp5e4fjv90f034tv3opkvhizr4.png",
+      "description": "御浜町　エリア内唯一のスポーツバイクショップ"
+    },
+    {
+      "type": "cs",
+      "title": "さぎりの里",
+      "url": "#",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/CS29-r082ftrlfr2as6y5qp5e4fjv90f034tv3opkvhizr4.png",
+      "description": "御浜町　直売所・食堂"
+    },
+    {
+      "type": "cs",
+      "title": "道の駅 紀宝町ウミガメ公園",
+      "url": "#",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/CS30-r082ftrlfr2as6y5qp5e4fjv90f034tv3opkvhizr4.png",
+      "description": "紀宝町　ウミガメ水族館がある"
+    },
+    {
+      "type": "cs",
+      "title": "パティスリー アフレイル",
+      "url": "#",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/CS31-r082ftrlfr2as6y5qp5e4fjv90f034tv3opkvhizr4.png",
+      "description": "紀宝町　地元で愛されるスイーツショップ"
+    },
+    {
+      "type": "cs",
+      "title": "飛雪の滝キャンプ場",
+      "url": "#",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/CS32-r082ftrlfr2as6y5qp5e4fjv90f034tv3opkvhizr4.png",
+      "description": "紀宝町　大迫力の滝とテントサウナ"
+    },
+    {
+      "type": "cs",
+      "title": "休憩スペース",
+      "url": "#",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/—Pngtree—bear-sitting-in-a-chair_4037229-r0co6jloln1thryiaufavr21nr83eya9g734i2m64g.png",
+      "description": "施設内などでサイクリストが休憩できること。"
+    },
+    {
+      "type": "cs",
+      "title": "空気入れの貸出",
+      "url": "#",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/—Pngtree—bicycle-tire-pump-and-vector_113041-r0cnv8lkedknumdpbghue3rgfwy5u0ehk8lvp9dmyo.png",
+      "description": "スポーツ自転車対応の空気入れであることが必須条件。理想的には仏式/米式/英式と3タイプのバルブ形式に対応したい。"
+    },
+    {
+      "type": "cs",
+      "title": "トイレの貸出",
+      "url": "#",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/—Pngtree—toilet-sign_7183929-r0c93smkci2fnibykqlfn7ndf8d7uolvtu4xn9csxs.png",
+      "description": "施設内の利用が可能であること。"
+    },
+    {
+      "type": "cs",
+      "title": "バイクラックの設置",
+      "url": "#",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/—Pngtree—parcel-delivery-and-post-service_8975550-r06aiyhw59cjap3774vlo1qfkd3sbkjgrfzodx1qps.png",
+      "description": "スポーツバイクをかけておけるラックを常設していること。"
+    },
+    {
+      "type": "cs",
+      "title": "スマートフォン・E-BIKEなどの充電サービス",
+      "url": "#",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/—Pngtree—charging-battery-icon-battery_5263137-r0bp29qi8qcrn6dxrut0oabltgo5au7damd5uv616o.png",
+      "description": "サイクリストへの貸出態勢が整っていること。"
+    },
+    {
+      "type": "cs",
+      "title": "飲料水の提供",
+      "url": "#",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/—Pngtree—water-bottle-illustration_6669024-r0bp8jbrsyxl1la96kbhape8dxs8m72y5mxp19vjpc.png",
+      "description": "ボトルなどへの水の補充が可能であること。"
+    },
+    {
+      "type": "cs",
+      "title": "更衣室の提供",
+      "url": "#",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/—Pngtree—changing-room-logo-psd-transparent_7180652-r0bp5geteipqzlrd68di4hduagyxdwumedyeemg03k.png",
+      "description": "簡単な着替えなどができるスペースの提供体制が整っているか。"
+    },
+    {
+      "type": "cs",
+      "title": "スポーツバイク対応の修理工具の貸出",
+      "url": "#",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/工具貸出-r06aqtfbae3udbo8b16b0kc6dcd9ogqo6cctu7e8ow.png",
+      "description": "ヘキサレンチなどの基本工具に加え、専用工具を備え付けているか。"
+    },
+    {
+      "type": "cs",
+      "title": "周辺のサイクリング情報の案内など",
+      "url": "#",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/—Pngtree—shared-parking-site-map_3360234-e1737178796145-r06ax072a4ksswon67gvxi4f5nv9cqb20yywks7xq8.png",
+      "description": "マップや観光パンフレットはもちろんだが、サイクリストから尋ねられた時に答えられるのが理想。"
+    },
+    {
+      "type": "cs",
+      "title": "その他サイクリストに優しいサービス",
+      "url": "#",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/—Pngtree—vector-cups-and-ice-cubes_3027525-r06atapzbni30a2itlrv3fsysy54zpl66mbyfhpu9s.png",
+      "description": "例えば夏場に飲料水用に氷の無料提供をするなど、施設独自で準備するサービスがあると理想的。"
+    }
+  ],
+  "rental": [
+    {
+      "type": "rental",
+      "title": "紀北町観光サービスセンター",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/RS1-r0b0e8pnigpl1iaq8i0pivle1jne95sk7ae0oxutmo.png",
+      "description": "道の駅 紀伊長島マンボウ内"
+    },
+    {
+      "type": "rental",
+      "title": "ふれあい広場マンドロ",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/RS2-r0b0cuw7g8tdy6b3behhcq5yk4gxx7ascfta99wosg.png",
+      "description": "紀伊長島駅から徒歩1分"
+    },
+    {
+      "type": "rental",
+      "title": "尾鷲観光物産協会",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/RS3-r0b0cuw7g8tdy6b3behhcq5yk4gxx7ascfta99wosg.png",
+      "description": "尾鷲駅から徒歩10分"
+    },
+    {
+      "type": "rental",
+      "title": "熊野市観光公社",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/RS4-r0b0cuw7g8tdy6b3behhcq5yk4gxx7ascfta99wosg.png",
+      "description": "熊野市駅前"
+    },
+    {
+      "type": "rental",
+      "title": "道の駅 熊野・板屋九郎兵衛の里",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/RS5-r0b0cuw7g8tdy6b3behhcq5yk4gxx7ascfta99wosg.png",
+      "description": "熊野市の西の玄関口"
+    },
+    {
+      "type": "rental",
+      "title": "道の駅 紀宝町ウミガメ公園",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/RS6-r0b0cuw7g8tdy6b3behhcq5yk4gxx7ascfta99wosg.png",
+      "description": "紀宝町・エリア南部の拠点"
+    },
+    {
+      "type": "rental",
+      "title": "飛雪の滝キャンプ場",
+      "url": "#",
+      "image": "https://higashikishucycling.com/wp-content/uploads/elementor/thumbs/RS7-r0b0cuw7g8tdy6b3behhcq5yk4gxx7ascfta99wosg.png",
+      "description": "熊野川沿いを散策可能"
+    }
+  ],
+  "post": [
+    {
+      "type": "post",
+      "title": "当HPが大人気YouTubeチャンネル「サイクルガジェットTV」で紹介されました！",
+      "url": "https://higashikishucycling.com/20260122aya/",
+      "image": "https://higashikishucycling.com/wp-content/uploads/2026/01/IMG_6143-300x225.jpg",
+      "date": "2026年1月22日",
+      "description": "東紀州エリアが大人気自転車YouTube"
+    },
+    {
+      "type": "post",
+      "title": "ライド/ハイクフェスが開催されます",
+      "url": "https://higashikishucycling.com/%e3%83%a9%e3%82%a4%e3%83%89-%e3%83%8f%e3%82%a4%e3%82%af%e3%83%95%e3%82%a7%e3%82%b9%e3%81%8c%e9%96%8b%e5%82%ac%e3%81%95%e3%82%8c%e3%81%be%e3%81%99/",
+      "image": "https://higashikishucycling.com/wp-content/uploads/2025/10/ライドハイクフェス2025-in-紀北・尾鷲-212x300.jpg",
+      "date": "2025年10月29日",
+      "description": "紀北町・尾鷲市で自転車＆ハイクイベントが"
+    },
+    {
+      "type": "post",
+      "title": "【紀北町観光協会】レンタル自転車の料金変更に関しまして",
+      "url": "https://higashikishucycling.com/%e3%80%90%e7%b4%80%e5%8c%97%e7%94%ba%e8%a6%b3%e5%85%89%e5%8d%94%e4%bc%9a%e3%80%91%e3%83%ac%e3%83%b3%e3%82%bf%e3%83%ab%e8%87%aa%e8%bb%a2%e8%bb%8a%e3%81%ae%e6%96%99%e9%87%91%e5%a4%89%e6%9b%b4%e3%81%ab/",
+      "image": "https://higashikishucycling.com/wp-content/uploads/2025/10/IMG_6174-EDIT-300x225.jpg",
+      "date": "2025年10月10日",
+      "description": "紀北町観光協会が運営するE-BIKEのレ"
+    },
+    {
+      "type": "post",
+      "title": "紀勢本線での定期列車によるサイクルトレイン運行の実証実験について",
+      "url": "https://higashikishucycling.com/%e7%b4%80%e5%8b%a2%e6%9c%ac%e7%b7%9a%e3%81%a7%e3%81%ae%e5%ae%9a%e6%9c%9f%e5%88%97%e8%bb%8a%e3%81%ab%e3%82%88%e3%82%8b%e3%82%b5%e3%82%a4%e3%82%af%e3%83%ab%e3%83%88%e3%83%ac%e3%82%a4%e3%83%b3%e9%81%8b/",
+      "image": "https://higashikishucycling.com/wp-content/uploads/2025/10/IMG_6581-300x225.jpg",
+      "date": "2025年10月3日",
+      "description": "紀勢本線で、自転車を解体せずに列車にその"
+    },
+    {
+      "type": "post",
+      "title": "東紀州自転車活用推進計画【改定版】について",
+      "url": "https://higashikishucycling.com/%e6%9d%b1%e7%b4%80%e5%b7%9e%e8%87%aa%e8%bb%a2%e8%bb%8a%e6%b4%bb%e7%94%a8%e6%8e%a8%e9%80%b2%e8%a8%88%e7%94%bb%e3%80%90%e6%94%b9%e5%ae%9a%e7%89%88%e3%80%91%e3%81%ab%e3%81%a4%e3%81%84%e3%81%a6/",
+      "image": "https://higashikishucycling.com/wp-content/uploads/2025/03/東紀州自転車活用推進計画【改定版】_page-0001-e1740968464237-300x108.jpg",
+      "date": "2025年3月10日",
+      "description": "東紀州自転車活用推進計画【改定版】"
+    },
+    {
+      "type": "post",
+      "title": "東紀州サイクリングポータルサイトがNHK様よりご紹介いただきました",
+      "url": "https://higashikishucycling.com/%e6%9d%b1%e7%b4%80%e5%b7%9e%e3%82%b5%e3%82%a4%e3%82%af%e3%83%aa%e3%83%b3%e3%82%b0%e3%83%9d%e3%83%bc%e3%82%bf%e3%83%ab%e3%82%b5%e3%82%a4%e3%83%88%e3%81%8cnh%ef%bd%8b%e6%a7%98%e3%82%88%e3%82%8a%e3%81%94/",
+      "image": "https://higashikishucycling.com/wp-content/uploads/2025/01/スクリーンショット-2025-01-29-10.19.41-300x121.png",
+      "date": "2025年3月4日",
+      "description": "東紀州サイクリングポータルサイトがNHK"
+    }
+  ]
+}

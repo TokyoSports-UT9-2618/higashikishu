@@ -36,7 +36,7 @@ export function Footer() {
 
                 <div className="flex justify-center md:justify-end">
                     <p className="text-xs text-brand-400">
-                        © 2026 一般社団法人東紀州地域振興公社 All rights reserved.
+                        © 2026 東紀州 観光・サイクリング
                     </p>
                 </div>
             </Container>

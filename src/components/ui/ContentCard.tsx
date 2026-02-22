@@ -1,16 +1,18 @@
 import Link from "next/link";
 import { ArrowRight } from "lucide-react";
+import { cn } from "@/lib/utils";
 
 interface CardProps {
     title: string;
     href: string;
     image?: string;
     description?: string;
+    className?: string;
 }
 
-export function ContentCard({ title, href, image, description }: CardProps) {
+export function ContentCard({ title, href, image, description, className }: CardProps) {
     return (
-        <Link href={href} className="group block h-full">
+        <Link href={href} className={cn("group block h-full", className)}>
             <div className="bg-white rounded-2xl overflow-hidden shadow-sm hover:shadow-hover transition-all duration-300 h-full flex flex-col border border-slate-100 group-hover:-translate-y-1">
 
                 {/* Image Area */}

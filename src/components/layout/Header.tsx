@@ -5,7 +5,7 @@ import { usePathname } from "next/navigation";
 import { Container } from "../ui/Container";
 import { cn } from "@/lib/utils";
 import { Menu, X } from "lucide-react";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const navLinks = [
     { name: "お知らせ", href: "/post" },
@@ -18,13 +18,32 @@ const navLinks = [
 export function Header() {
     const pathname = usePathname();
     const [isOpen, setIsOpen] = useState(false);
+    const [isScrolled, setIsScrolled] = useState(false);
+
+    useEffect(() => {
+        const handleScroll = () => {
+            setIsScrolled(window.scrollY > 50);
+        };
+        handleScroll();
+        window.addEventListener("scroll", handleScroll);
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
+
+    const isTopPage = pathname === "/";
+    const isTransparent = isTopPage && !isScrolled;
 
     return (
-        <header className="fixed top-0 w-full z-50 glass-panel border-b border-white/40">
+        <header className={cn(
+            "fixed top-0 w-full z-50 transition-all duration-300",
+            isTransparent && !isOpen ? "bg-transparent border-transparent" : "glass-panel border-b border-white/40"
+        )}>
             <Container>
                 <div className="flex items-center justify-between h-16 md:h-20">
                     <Link href="/" className="flex items-center gap-2 group">
-                        <span className="font-serif text-xl md:text-2xl font-bold tracking-tighter text-brand-900 group-hover:text-brand-600 transition-colors">
+                        <span className={cn(
+                            "font-serif text-xl md:text-2xl font-bold tracking-tighter transition-colors",
+                            isTransparent && !isOpen ? "text-white" : "text-brand-900 group-hover:text-brand-600"
+                        )}>
                             東紀州
                         </span>
                     </Link>
@@ -36,8 +55,10 @@ export function Header() {
                                 key={link.href}
                                 href={link.href}
                                 className={cn(
-                                    "text-sm font-medium transition-colors hover:text-brand-600",
-                                    pathname === link.href ? "text-brand-600 font-bold" : "text-slate-600"
+                                    "text-sm font-medium transition-colors",
+                                    pathname === link.href
+                                        ? (isTransparent && !isOpen ? "text-white font-bold" : "text-brand-600 font-bold")
+                                        : (isTransparent && !isOpen ? "text-white/90 hover:text-white" : "text-slate-600 hover:text-brand-600")
                                 )}
                             >
                                 {link.name}
@@ -47,7 +68,10 @@ export function Header() {
 
                     {/* Mobile Menu Button */}
                     <button
-                        className="md:hidden p-2 text-slate-600 hover:text-brand-600"
+                        className={cn(
+                            "md:hidden p-2 transition-colors",
+                            isTransparent && !isOpen ? "text-white" : "text-slate-600 hover:text-brand-600"
+                        )}
                         onClick={() => setIsOpen(!isOpen)}
                         aria-label="Toggle menu"
                     >

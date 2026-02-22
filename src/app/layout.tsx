@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Noto_Sans_JP, Noto_Serif_JP } from "next/font/google";
+import { cn } from "@/lib/utils";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import "./globals.css";
@@ -32,10 +33,14 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="ja" className={`${notoSansJP.variable} ${notoSerifJP.variable}`}>
-      <body className="font-sans min-h-screen flex flex-col bg-slate-50 text-slate-800">
+    <html lang="ja" className={`${notoSansJP.variable} ${notoSerifJP.variable}`} suppressHydrationWarning>
+      <body className={cn(
+        "min-h-screen bg-slate-50 font-sans antialiased",
+        notoSansJP.variable,
+        notoSerifJP.variable
+      )}>
         <Header />
-        <main className="flex-1 flex flex-col pt-16 md:pt-20">
+        <main className="flex-grow">
           {children}
         </main>
         <Footer />

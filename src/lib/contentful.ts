@@ -30,13 +30,13 @@ export const getContentfulEntries = async (
         `https://cdn.contentful.com/spaces/${env.CONTENTFUL_SPACE_ID}/environments/${env.CONTENTFUL_ENVIRONMENT}/entries`
     );
     endpoint.searchParams.set("content_type", contentType);
+    endpoint.searchParams.set("include", "2"); // Fetch linked assets
 
     try {
         const response = await fetch(endpoint.toString(), {
             headers: {
                 Authorization: `Bearer ${env.CONTENTFUL_ACCESS_TOKEN}`,
             },
-            // Ensure content is fetched at build time for static export.
             cache: "force-cache",
         });
 
@@ -47,8 +47,25 @@ export const getContentfulEntries = async (
             return [];
         }
 
-        const data = (await response.json()) as ContentfulEntriesResponse;
-        return Array.isArray(data.items) ? data.items : [];
+        const data = (await response.json()) as any;
+        const items = data.items || [];
+        const assets = data.includes?.Asset || [];
+
+        // Map assets to items
+        const assetMap = new Map();
+        assets.forEach((asset: any) => assetMap.set(asset.sys.id, asset));
+
+        const mappedItems = items.map((item: any) => {
+            const mappedItem = { ...item };
+            // If the image field exists but is a link, resolve it
+            if (mappedItem.fields?.image?.sys?.type === "Link" && mappedItem.fields.image.sys.linkType === "Asset") {
+                const assetId = mappedItem.fields.image.sys.id;
+                mappedItem.fields.image = assetMap.get(assetId);
+            }
+            return mappedItem;
+        });
+
+        return mappedItems;
     } catch (error) {
         console.error("Error fetching Contentful entries:", error);
         return [];
