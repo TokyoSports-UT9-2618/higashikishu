@@ -8,12 +8,11 @@ import { Menu, X } from "lucide-react";
 import { useState } from "react";
 
 const navLinks = [
-    { name: "ホーム", href: "/" },
+    { name: "お知らせ", href: "/post" },
     { name: "サイクリングルート", href: "/route" },
-    { name: "観光スポット", href: "/spots" },
-    { name: "宿泊・温泉", href: "/hotel" },
+    { name: "サイクルステーション", href: "/cs" },
+    { name: "サイクリストにやさしい宿", href: "/hotel" },
     { name: "レンタサイクル", href: "/rental" },
-    { name: "サポート施設", href: "/cs" },
 ];
 
 export function Header() {
